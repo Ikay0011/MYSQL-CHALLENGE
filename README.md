@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="ChatGPT%20Image%20Apr%2012%2C%202025%2C%2009_35_03%20PM.png" alt="MYSQL CHALLENGE BY IKAY" />
+</p>
 # 🐬 MySQL Practice Challenges
 
 
