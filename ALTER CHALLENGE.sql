@@ -197,7 +197,54 @@
 
 
 
+#                Challenge 1 SOLUTION
+#                 ANSWER 1    
+       ALTER TABLE tbl_practice_student 
+	   RENAME COLUMN surname TO Last_Name;
+       
+#                ANSWER 2     
+        ALTER TABLE tbl_practice_student 
+        ADD Email VARCHAR(100);
+        
+ #                 ANSWER 3 
+         ALTER TABLE tbl_practice_student
+         MODIFY Gender ENUM ('Male', 'Female', 'Other');
+         
+         
+ #                Challenge 2 SOLUTION 
+ #                 ANSWER 1
+          ALTER TABLE tbl_practice_student
+          RENAME COLUMN First_Name TO Full_Name;
           
+#                ANSWER 2         
+         ALTER TABLE tbl_practice_student
+         ADD COLUMN Date_Joined DATE;
+         
+#                ANSWER 3
+          ALTER TABLE tbl_practice_student
+          MODIFY Student_ID INT AUTO_INCREMENT;
+          
+#                ANSWER 4     
+          ALTER TABLE tbl_practice_student
+          ADD COLUMN Level varchar(10) DEFAULT '100';
+          
+ #                Challenge 3 SOLUTION
+ #                 ANSWER 1 
+          ALTER TABLE tbl_practice_student
+          DROP COLUMN Gender;
+
+#                ANSWER 2
+          ALTER TABLE Students_2025
+          RENAME TO tbl_Students_2025;
+          
+#                ANSWER 3
+          ALTER TABLE tbl_Students_2025
+          MODIFY Last_Name VARCHAR (20) NULL;
+
+#                ANSWER 4  
+          ALTER TABLE tbl_Students_2025
+          ADD UNIQUE (Email);
+  
           
 
           
